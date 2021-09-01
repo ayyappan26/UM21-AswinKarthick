@@ -9,7 +9,7 @@ public class WriteToTextfile {
 		
 		try{
 			FileWriter fw = new FileWriter("D:\\hello.txt");
-			fw.write("Hello, Welcome to my file program");
+			fw.write("Hello, Welcome to my text file program");
 			fw.write("\nThis is the second line");
 			fw.close();
 		}catch(IOException e) {
