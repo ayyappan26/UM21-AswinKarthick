@@ -15,6 +15,7 @@ public class DataConnection {
 			System.out.println(e.getMessage());
 	}
 	}
+
 	
 	public static Connection getDbConnection() throws SQLException  {
 		 
